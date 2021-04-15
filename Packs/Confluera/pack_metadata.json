@@ -1,0 +1,20 @@
+{
+    "name": "confluera",
+    "description": "## FILL MANDATORY FIELD ##",
+    "support": "developer",
+    "currentVersion": "1.0.0",
+    "author": "",
+    "url": "",
+    "email": "kavyansh.pandey@coditas.com",
+    "categories": [
+        "Analytics & SIEM"
+    ],
+    "tags": [
+        "confluera"
+    ],
+    "useCases": [],
+    "keywords": [],
+    "githubUser": [
+        "kavyansh-coditas"
+    ]
+}
