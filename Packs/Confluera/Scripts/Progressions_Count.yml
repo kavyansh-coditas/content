@@ -1,0 +1,33 @@
+commonfields:
+  id: a82c9359-0adc-4f1c-8b9a-15a2cd4e2b4d
+  version: 2
+vcShouldKeepItemLegacyProdMachine: false
+name: Progressions_Count
+script: |
+  import json
+
+  # Executes confluera-login command/script
+  login_data = demisto.executeCommand('confluera-login', {})
+  token = login_data[0]['Contents']['access_token']
+
+  # Executes confluera-fetch-progressions command/script
+  progressions_data = demisto.executeCommand('confluera-fetch-progressions', { 'access-token': token, 'hours': '72'})
+  prog_count = len(progressions_data[1]['Contents'])
+
+  demisto.results(prog_count);
+type: python
+tags: []
+enabled: true
+scripttarget: 0
+subtype: python3
+dependson:
+  must:
+  - Confluera|||confluera-login
+  - Confluera|||confluera-fetch-progressions
+  should:
+  - Confluera|||confluera-login
+  - Confluera|||confluera-fetch-progressions
+pswd: ""
+runonce: false
+dockerimage: demisto/python3:3.9.1.15759
+runas: DBotWeakRole
