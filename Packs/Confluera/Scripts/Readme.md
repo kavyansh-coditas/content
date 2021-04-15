@@ -120,7 +120,7 @@
 ### Context Example
 
 ### Human Readable Output
-![alt text]()
+![alt text](https://github.com/kavyansh-coditas/content/blob/confluera/Packs/Confluera/Scripts/Images/Detection_summary_warroom.png))
 
 ---
 
@@ -272,7 +272,7 @@
 
 
 ### Human Readable Output
-![alt text](Path of Image)
+![alt text]()
 
 ---
 # Progressions_Count Script
@@ -380,7 +380,7 @@
 ### Human Readable Output
 ### 
 
-![alt text](https://github.com/kavyansh-coditas/content/blob/confluera/Packs/Confluera/Scripts/Images/Detection_summary_warroom.png)
+![alt text](https://github.com/kavyansh-coditas/content/blob/confluera/Packs/Confluera/Scripts/Images/Progression_data_warrrom.png)
 
 
 
