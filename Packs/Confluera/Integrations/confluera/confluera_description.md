@@ -1,8 +1,10 @@
-## BaseIntegration Help
+## Confluera
+- This section explains how to configure the instance of Confluera in Cortex XSOAR.
+- You can use the following EndPoints and Credentials :
+- BaseURL :   `https://test.confluera.com/`
+- EndPoint for Detections : `https://test.confluera.com/detetcions`
+- EndPoint for Progressions : `https://test.confluera.com/progressions`
 
-Markdown file for integration configuration  help snippet. In this file add:
-- Brief information about how to retrieve the API key of your product
-- Other useful information on how to configure your integration in XSOAR
 
-Since this is a Markdown file, we encourage you to use MD formatting for sections, sub-sections, lists, etc.
-
+- Username : `admin@confluera.com`
+- Password : `test@1234`
