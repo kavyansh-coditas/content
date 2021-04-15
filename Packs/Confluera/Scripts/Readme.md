@@ -379,8 +379,8 @@
 
 ### Human Readable Output
 ### 
-```
+
 ![alt text](https://github.com/kavyansh-coditas/content/blob/confluera/Packs/Confluera/Scripts/Images/Detection_summary_warroom.png)
-```
+
 
 
