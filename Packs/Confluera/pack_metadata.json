@@ -1,20 +1,30 @@
 {
     "name": "confluera",
-    "description": "## FILL MANDATORY FIELD ##",
+    "description": "This is Confluera Integration.",
     "support": "developer",
     "currentVersion": "1.0.0",
-    "author": "",
+    "author": "Kavyansh",
     "url": "",
     "email": "kavyansh.pandey@coditas.com",
+    "created": "2020-03-10T08:37:18Z",
+    "certification": "verified",
     "categories": [
-        "Analytics & SIEM"
+        "Analytiics & SIEM"
     ],
     "tags": [
         "confluera"
     ],
     "useCases": [],
     "keywords": [],
-    "githubUser": [
-        "kavyansh-coditas"
-    ]
+    "dependencies": {
+        "CommonScripts": {
+            "mandatory": true,
+            "display_name": "Common Scripts"
+        },
+        "CommonPlaybooks": {
+            "mandatory": false,
+            "display_name": "Common Playbooks"
+        }
+    }
 }
+
