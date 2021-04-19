@@ -32,4 +32,4 @@ There is no inputs for this playbook.
 ---
 There are no outputs for this playbook.
 
-![Playbook Image]
+![Playbook Image](https://github.com/kavyansh-coditas/content/blob/confluera/Packs/Confluera/Playbooks/Images/IQ-HUB_Automation_Fri_Apr_16_2021.png)
